@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="baitaplon2.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="header">
+        <a class="logo" href="">TN</a>
+        <nav class="navbar">
+            <div class="menu-toggle" id="menu-toggle">
+                ☰
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a class="item" href="baitaplon.html">Home</a></li>
+                <li><a class="item" href="">About us</a></li>
+                <li><a class="item" href="baitaplon2.html">Product</a></li>
+                <li><a class="item" href="">Blog</a></li>
+                <li><a class="item" href="">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div>
+        <h1 class="wellcome">Wellcome</h1>    
+        <h3 class="firtsentence">Chào mừng bạn đến với website bán trang sức uy tín số 1 CNTT 18-09</h3>
+        <h4 >Những ý tưởng độc đáo được thức hiện bởi riêng Lò Xuân Trường đẹp trai số 2 Điện Biên</h4>
+        <h4>Hãy khám phá những sản phẩm mà chỉ riêng trang web này mới có thể có nhé!</h4>
+        <h4>Thanks You very much!!</h4>
+    </div>
+    <section class="product-section">
+        <h1 class="section-title">Sản phẩm nổi bật</h1>
+        <div class="product-grid">
+            <!-- Sản phẩm 1 -->
+            <div class="product-card">
+                <img src="vongvang12.jpg" alt="Sản phẩm 1" class="product-image">
+                <h2 class="product-name">vòng tay vàng</h2>
+                <p class="product-price">3.500.000 VNĐ</p>
+                <button class="product-button">Xem thêm</button>
+            </div>
+            <!-- Sản phẩm 2 -->
+            <div class="product-card">
+                <img src="bongtai1.jpg" alt="Sản phẩm 2" class="product-image">
+                <h2 class="product-name">Bông Tai Vàng</h2>
+                <p class="product-price">5.200.000 VNĐ</p>
+                <button class="product-button">Xem thêm</button>
+            </div>
+            <!-- Sản phẩm 3 -->
+            <div class="product-card">
+                <img src="bongtai2.jpg" alt="Sản phẩm 3" class="product-image">
+                <h2 class="product-name">Bông tai Vàng</h2>
+                <p class="product-price">2.800.000 VNĐ</p>
+                <button class="product-button">Xem thêm</button>
+            </div>
+            <div class="product-card">
+                <img src="daychuyen.jpg" alt="Sản phẩm 3" class="product-image">
+                <h2 class="product-name">Dây chuyền kim cương</h2>
+                <p class="product-price">12.800.000 VNĐ</p>
+                <button class="product-button">Xem thêm</button>
+            </div>
+            <div class="product-card">
+                <img src="daychuyen2.jpg" alt="Sản phẩm 3" class="product-image">
+                <h2 class="product-name">Dây chuyền kim cương</h2>
+                <p class="product-price">8.800.000 VNĐ</p>
+                <button class="product-button">Xem thêm</button>
+            </div>
+            <div class="product-card">
+                <img src="dongho3.webp" alt="Sản phẩm 3" class="product-image">
+                <h2 class="product-name">Đồng hồ kim cương</h2>
+                <p class="product-price">2.800.000 VNĐ</p>
+                <button class="product-button">Xem thêm</button>
+            </div>
+            <div class="product-card">
+                <img src="dongho1.png" alt="Sản phẩm 3" class="product-image">
+                <h2 class="product-name">Đồng hồ vàng 24k</h2>
+                <p class="product-price">2.800.000 VNĐ</p>
+                <button class="product-button">Xem thêm</button>
+            </div>
+            <div class="product-card">
+                <img src="dongho.png" alt="Sản phẩm 3" class="product-image">
+                <h2 class="product-name">Đồng hồ vàng</h2>
+                <p class="product-price">2.800.000 VNĐ</p>
+                <button class="product-button">Xem thêm</button>
+            </div>
+        </div>
+        <footer class="site-footer">
+            <div class="footer-line"></div>
+            <div class="footer-container">
+                <!-- Cột 1: Logo và mô tả -->
+                <div class="footer-column">
+                    <h2 class="footer-logo">Trang Sức T/N</h2>
+                    <p>Chúng tôi mang đến những sản phẩm trang sức tinh tế, sang trọng, và đẳng cấp cho mọi khách hàng.</p>
+                </div>
+        
+                <!-- Cột 2: Liên kết nhanh -->
+                <div class="footer-column">
+                    <h3>Liên kết nhanh</h3>
+                    <ul class="footer-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#products">Products</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+        
+                <!-- Cột 3: Thông tin liên hệ -->
+                <div class="footer-column">
+                    <h3>Thông tin liên hệ</h3>
+                    <p>Địa chỉ: 1 Phố Xốm, Hà Đông , Hà Nội</p>
+                    <p>Email: truong72.minecraft@gmail.com</p>
+                    <p>Điện thoại: 0857243819</p>
+                </div>
+        
+                <!-- Cột 4: Mạng xã hội -->
+                <div class="footer-column">
+                    <h3>Kết nối với chúng tôi</h3>
+                    <div class="social-icons">
+                        <a href="#"><img src="facebook-app-symbol.png" alt="Facebook"></a>
+                        <a href="#"><img src="twitter.png" alt="Twitter"></a>
+                        <a href="#"><img src="instagram.png" alt="Instagram"></a>
+                        <a href="#"><img src="youtube (1).png" alt="YouTube"></a>
+                    </div>
+                </div>
+            </div>
+        
+            <!-- Vạch ngang ngăn cách phần Footer và phần chính của trang -->
+            <div class="footer-line"></div>
+        
+            <!-- Bản quyền -->
+            <div class="footer-bottom">
+                <p>&copy; 2024 Trang Sức TN. Mọi quyền được bảo lưu.</p>
+            </div>
+        </footer>
+    <script>
+                const menuToggle = document.getElementById('menu-toggle');
+    const navMenu = document.getElementById('nav-menu');
+
+    menuToggle.addEventListener('click', () => {
+        navMenu.classList.toggle('active');
+    });
+    </script>
+</body>
+</html>

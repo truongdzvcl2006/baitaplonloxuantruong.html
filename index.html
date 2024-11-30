@@ -9,15 +9,19 @@
 <body>
     <div class="header">
         <a class="logo" href="">TN</a>
-        <nav>
-            <ul>
-                <li><a class="item" href="">Home</a></li>
+        <nav class="navbar">
+            <div class="menu-toggle" id="menu-toggle">
+                ☰
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a class="item" href="baitaplon.html">Home</a></li>
                 <li><a class="item" href="">About us</a></li>
-                <li><a class="item" href="">Product</a></li>
+                <li><a class="item" href="baitaplon2.html">Product</a></li>
                 <li><a class="item" href="">Blog</a></li>
                 <li><a class="item" href="">Contact</a></li>
             </ul>
         </nav>
+        
     </div>
     <div>
         <h1 class="wellcome">Wellcome</h1>    
@@ -113,7 +117,6 @@
             <img src="qtrih.jpg" alt="Ảnh minh họa">
         </div>
     </div>
-
     <br><br><br><br><br><br><br><br><br>
     <section class="faqs">
         <h1 class="faqs-title">Câu hỏi thường gặp</h1>
@@ -155,9 +158,9 @@
             <div class="footer-column">
                 <h3>Liên kết nhanh</h3>
                 <ul class="footer-links">
-                    <li><a href="#home">Home</a></li>
+                    <li><a href="baitaplon.html">Home</a></li>
                     <li><a href="#about">About</a></li>
-                    <li><a href="#products">Products</a></li>
+                    <li><a href="baitaplon2.html">Products</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
             </div>
@@ -174,7 +177,7 @@
             <div class="footer-column">
                 <h3>Kết nối với chúng tôi</h3>
                 <div class="social-icons">
-                    <a href="#"><img src="facebook-app-symbol.png" alt="Facebook"></a>
+                    <a href="https://www.facebook.com/profile.php?id=100050108658869&locale=vi_VN"><img src="facebook-app-symbol.png" alt="Facebook"></a>
                     <a href="#"><img src="twitter.png" alt="Twitter"></a>
                     <a href="#"><img src="instagram.png" alt="Instagram"></a>
                     <a href="#"><img src="youtube (1).png" alt="YouTube"></a>
@@ -201,6 +204,12 @@
                 faq.classList.toggle("open");
             });
         });
+    });
+        const menuToggle = document.getElementById('menu-toggle');
+    const navMenu = document.getElementById('nav-menu');
+
+    menuToggle.addEventListener('click', () => {
+        navMenu.classList.toggle('active');
     });
     </script>
 </body>

@@ -1,0 +1,302 @@
+body{
+    background: black;
+}
+.header{
+    background-color: rgb(0, 0, 0);
+    display: flex;
+}
+.logo{
+    font-size: 34px;
+    text-decoration: none;
+    margin-left: 10px;
+    padding-top: 10px;
+    color: #ffc107;
+}
+*{
+    padding: 0;
+    margin: 0;}
+    
+    nav{
+        margin-top: 22px;
+        width: 100%;
+        display: flex;
+        height: 30px;
+        justify-content: end;
+    }
+    .navbar {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 20px;
+        background-color: #000; /* Nền đen */
+    }
+    
+    
+    .nav-menu {
+        list-style: none;
+        display: flex;
+        gap: 20px;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .nav-menu li a {
+        text-decoration: none;
+        color: #ffc107; 
+        font-size: 20px;
+        transition: color 0.3s;
+    }
+    
+    .nav-menu li a:hover {
+        color: #967205; 
+    }
+    
+    /* Hamburger icon */
+    .menu-toggle {
+        display: none;
+        font-size: 2em;
+        color: #ffc107;
+        cursor: pointer;
+    }
+    
+    /* Responsive */
+    @media (max-width: 768px) {
+        .nav-menu {
+            display: none; 
+            flex-direction: column;
+            gap: 10px;
+            background-color: #000;
+            position: absolute;
+            top: 60px;
+            right: 20px;
+            width: 200px;
+            padding: 15px;
+            border-radius: 5px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+        }
+    
+        .nav-menu.active {
+            display: flex; 
+        }
+    
+        .menu-toggle {
+            display: block;
+        }
+    }
+.wellcome{
+    filter: drop-shadow( 1px 1px 20px);
+    margin-top: 170px;
+    color: #ffc107;
+    font-family: monospace;
+    font-size: 5rem;
+    display: flex;
+    justify-content: center;
+}
+.firtsentence{
+    display: flex;
+    justify-content: center;
+    color: rgb(119, 119, 109);
+}
+h4{ 
+    display: flex;
+    justify-content: center;
+    color: white;
+
+}
+.text{
+    display: flex;
+    color: white;
+    margin-left: 50px;
+}
+.firttext{
+    display: flex;
+    color: #ffc107;
+    margin-left: 50px;
+}
+.product-section {
+    padding: 40px 20px;
+    background-color: #000; /* Nền đen */
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.section-title {
+    font-size: 2em;
+    color: #ffc107; /* Tiêu đề màu vàng */
+    margin-bottom: 30px;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.product-card {
+    background: #222; /* Màu nền thẻ tối hơn */
+    border: 1px solid #333;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: center;
+    padding: 15px;
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.5);
+}
+
+.product-image {
+    max-width: 100%;
+    height: auto;
+    border-bottom: 1px solid #444;
+    margin-bottom: 15px;
+}
+
+.product-name {
+    font-size: 1.4em;
+    color: #ffc107; /* Tiêu đề sản phẩm màu vàng */
+    margin-bottom: 10px;
+}
+
+.product-description {
+    font-size: 1em;
+    color: #fff; /* Mô tả sản phẩm màu trắng */
+    margin-bottom: 15px;
+}
+
+.product-price {
+    font-size: 1.2em;
+    color: #fff; /* Giá sản phẩm màu trắng */
+    margin-bottom: 20px;
+}
+
+.product-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1em;
+    color: #000;
+    background-color: #ffc107; /* Nút màu vàng */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.product-button:hover {
+    background-color: #e0a800; /* Màu vàng đậm hơn khi hover */
+    transform: scale(1.1);
+}
+.other-container, .footer {
+    padding: 20px;
+    text-align: left;
+}
+
+/* Container cần căn giữa */
+.center-me {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 600px;
+    background: #ffc107; /* Màu nền vàng */
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.site-footer {
+    background-color: #000000; /* Nền đen */
+    color: #ffc107; /* Chữ màu vàng */
+    padding: 40px 20px;
+    font-family: Arial, sans-serif;
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-column {
+    flex: 1;
+    min-width: 250px;
+    margin: 20px;
+}
+
+.footer-logo {
+    font-size: 1.8em;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #ffc107; /* Logo màu vàng */
+}
+
+.footer-column h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #ffc107;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+.footer-column p, .footer-links li {
+    margin-bottom: 10px;
+    font-size: 0.9em;
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links li a {
+    text-decoration: none;
+    color: #ffc107; /* Liên kết màu vàng */
+    transition: color 0.3s ease;
+}
+
+.footer-links li a:hover {
+    color: white; /* Chuyển thành màu trắng khi hover */
+}
+
+/* Mạng xã hội */
+.social-icons a {
+    margin-right: 10px;
+    display: inline-block;
+}
+
+.social-icons img {
+    width: 30px;
+    height: 30px;
+    filter: brightness(0) invert(1); /* Biến đổi logo thành màu vàng */
+    transition: transform 0.3s ease;
+}
+
+.social-icons a:hover img {
+    transform: scale(1.2);
+}
+
+/* Vạch ngang ngăn cách Footer và phần chính của trang */
+.footer-line {
+    width: 100%;
+    height: 1px;
+    background-color: #ffc107; /* Màu vàng cho vạch ngăn cách */
+    margin: 20px 0;
+}
+
+/* Bản quyền cuối cùng */
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.9em;
+    border-top: 1px solid #444;
+    padding-top: 10px;
+    color: #aaa;
+}
